@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(217, 221, 228);
+}
+.player-details {
+    width: 250px;
+    height: 100%;
+    background: linear-gradient(109.6deg, rgb(15, 153, 151) 11.2%, rgb(83, 223, 209) 91.1%);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.player-search {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.player-search p {
+    font-size: 10px;
+    margin: 0;
+    color: #fff;
+}
+.player-search #head {
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+#recent {
+    text-align: center;
+    font-weight: 500;
+}
+.player-image {
+    margin: 10px 10px;
+    padding: 20px auto;
+}
+.player-image img {
+    border-radius: 10px;
+}
+.player-content {
+    display: flex;
+    justify-content: space-between;
+}
+.player-content p {
+    margin: 0;
+    color: #fff;
+}
+.player-content #song-name {
+    font-size:15px ;
+    font-weight: 500;
+}
+.player-content #singer {
+    font-size: 10px;
+    font-weight: 300;
+}
+.player-time {
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+}
+.player-time p {
+    font-size: 10px;
+    color: #fff;
+    font-weight: 300;
+}
+.player-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.player-item2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.player-line .line {
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff77;
+    margin-top: 40px;
+    position: relative;
+  
+}
+.player-line .circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgb(243, 243, 247);
+    position: absolute;
+    top: 74.2%;
+    left: 40%;
+    /* transform: translate(-50%, -50%); */
+    
+}
